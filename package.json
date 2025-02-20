@@ -1,0 +1,28 @@
+{
+  "name": "react-dropdown-w-typescript-example",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": ["react", "typescript", "dropdown"],
+  "main": "src/index.tsx",
+  "dependencies": {
+    "react": "17.0.0",
+    "react-dom": "17.0.0",
+    "react-scripts": "3.3.0",
+    "ts-jest": "26.4.3",
+    "uuid": "8.3.2"
+  },
+  "devDependencies": {
+    "@types/react": "16.9.19",
+    "@types/react-dom": "16.9.5",
+    "typescript": "3.7.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "watch": "onchange \"**/*\" -- prettier --write --ignore-unknown {{changed}}",
+    "write": "yarn prettier --write ."
+  },
+  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
+}
